@@ -1,3 +1,3 @@
 #!/bin/bash
 python manage.py migrate
-python manage.py runserver 0.0.0.0:7000
+exec python manage.py runserver 0.0.0.0:7000
